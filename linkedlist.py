@@ -149,6 +149,3 @@ class LinkedList:
             list.append(_current_node.data)
             _current_node = _current_node.next
         return str(list)
-    
-test = LinkedList()
-test.clear()
